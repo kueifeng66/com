@@ -1,5 +1,5 @@
         let currentSchedule = {};       
-        const allPeople = ['張日曜', '孫景泰', '秦桔萬', '官郁庭', '方振彬','陳信憲'];
+        const allPeople = ['張日曜', '邱冠霖', '孫景泰', '秦桔萬', '官郁庭', '方振彬', '陳信憲'];
 		
         let disabledPeople = new Set();
         let unavailableDays = {};
@@ -11,6 +11,7 @@
  
 const personColors = {
     '張日曜': '#F96167',
+	'邱冠霖': '#27AE60'
     '孫景泰': '#990011',
     '秦桔萬': '#00246B',
     '官郁庭': '#8AAAE5',
